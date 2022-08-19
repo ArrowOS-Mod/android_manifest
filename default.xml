@@ -23,6 +23,10 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
 
+  <remote  name="arrow-mod"
+           fetch="https://github.com/ArrowOS-Mod"
+           revision="refs/heads/arrow-13.0" />
+
   <remote  name="arrow-12.1"
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
