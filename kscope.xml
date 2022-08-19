@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="github-priv"
+           fetch="ssh://git@github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="kscope"
+           fetch="https://github.com/Project-Kaleidoscope"
+           review="https://review.kaleidoscope.ink/"
+           revision="refs/heads/sunflowerleaf" />
+
+  <remote  name="kscope-gitlab"
+           fetch="https://gitlab.com/Project-Kaleidoscope"
+           revision="refs/heads/sunflowerleaf" />
+
+  <!-- external -->
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="kscope-gitlab" clone-depth="1" />
+
+  <!-- packages -->
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="kscope" />
+</manifest>
